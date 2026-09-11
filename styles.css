@@ -1,11 +1,11 @@
-/* Amir Koutahi â€” personal site. Plain, paper-like. */
+/* Amir Koutahi â€” personal site. Plain, dark navy. */
 
 html {
   font-family: "Latin Modern Roman", "Computer Modern Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 1.55;
-  color: #000;
-  background: #fff;
+  color: #dde4ee;
+  background: #0f1c2e;
 }
 
 body {
@@ -17,22 +17,25 @@ body {
 header { margin-bottom: 2.5rem; }
 
 h1 {
+  color: #cfe0ff;
   font-size: 1.9rem;
   font-weight: normal;
   margin: 0 0 .2rem;
 }
 
-.affil { margin: 0 0 .35rem; }
+.affil { margin: 0 0 .35rem; color: #a3b3c9; }
 
 .links { margin: 0; }
 
 h2 {
+  color: #8fc1ff;
   font-size: 1.25rem;
   font-weight: bold;
   margin: 2.5rem 0 .75rem;
 }
 
 h3 {
+  color: #a3b3c9;
   font-size: 1rem;
   font-weight: normal;
   font-style: italic;
@@ -48,12 +51,13 @@ ul {
 
 li { margin-bottom: .45rem; }
 
-a { color: #00408a; }
+a { color: #8fc1ff; }
 a:hover { text-decoration-thickness: 2px; }
-a:focus-visible { outline: 2px solid #00408a; outline-offset: 2px; }
+a:focus-visible { outline: 2px solid #8fc1ff; outline-offset: 2px; }
 
 table { border-collapse: collapse; margin-top: .25rem; }
 td { padding: .15rem 1.5rem .15rem 0; vertical-align: top; }
+td:first-child { color: #8fc1ff; }
 td:last-child { padding-right: 0; }
 
 sup { font-size: .7em; }
@@ -61,7 +65,7 @@ sup { font-size: .7em; }
 footer {
   margin-top: 3.5rem;
   font-size: .85rem;
-  color: #555;
+  color: #8a97ab;
 }
 
 @media (max-width: 480px) {
